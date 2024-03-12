@@ -1,0 +1,247 @@
+html {
+  font-family: Poppins, sans-serif;
+  background-color: #232830;
+}
+body {
+  width: 100%;
+  max-width: 168rem;
+  margin: 0 auto;
+}
+
+svg {
+  display: inline-block;
+}
+
+/* Header */
+header {
+  width: 96%;
+  margin: 4% auto 0;
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+.nav-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-main > a {
+  font-size: 3rem;
+}
+.nav-main__list {
+  display: flex;
+  gap: 4rem;
+}
+
+#logo {
+  display: block;
+  margin: 4rem auto 0;
+  transform: translateX(2rem);
+}
+
+h1 {
+  font: 7.1rem Recursive, sans-serif;
+  font-style: italic;
+  color: #ff7575;
+  margin-top: 4rem;
+}
+
+.info-h1 {
+  font-size: 2.9rem;
+  margin-top: 1rem;
+}
+
+/* Category List */
+.category-container {
+  margin: 8% auto 0;
+  border-top: 3px solid rgba(77, 77, 77, 0.1882352941);
+}
+
+#category-listing {
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font: 2.7rem Recursive, sans-serif;
+  font-style: italic;
+  color: #909090;
+  padding: 2rem;
+  margin: 0 auto;
+}
+#category-listing li {
+  cursor: pointer;
+}
+#category-listing li:first-child {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+#category-listing li:last-child {
+  position: relative;
+}
+#category-listing li:last-child::after {
+  content: "";
+  display: block;
+  width: 14rem;
+  height: 3.2rem;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  background: linear-gradient(270deg, #232830 0.01%, rgba(35, 40, 48, 0) 87.5%);
+}
+
+/* Category */
+#category {
+  width: 96%;
+  margin: 4% auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+#category .category-item {
+  background-color: #fff;
+  border-radius: 1.6rem;
+  padding: 2.4rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#category .category-item img {
+  width: 100%;
+}
+#category .category-item h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-top: 3.6rem;
+}
+#category .category-item p {
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
+}
+#category .category-item__more {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  bottom: 2rem;
+}
+
+/* Pagination */
+.pagination {
+  width: 96%;
+  margin: 0 auto;
+  font: 2.5rem Recursive, sans-serif;
+  font-style: italic;
+  color: #909090;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pagination p {
+  padding: 1.6rem 2.4rem 1.6rem 1.6rem;
+  cursor: pointer;
+}
+.pagination p:nth-child(3) {
+  color: #ff7575;
+  font-weight: 700;
+  border-top: 3px solid #ff7575;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  border-top: 3px solid rgba(77, 77, 77, 0.1882352941);
+  margin: 4% auto 0;
+}
+footer > div {
+  width: 96%;
+  margin: 0 auto;
+  font: 1.9rem "Source Sans 3", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3.6rem 2rem 4%;
+}
+footer h2 {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+footer span {
+  background-color: #4699e0;
+  border-radius: 0.4rem;
+  padding: 0.4rem 1.6rem;
+  font-size: 1.9rem;
+  margin-left: 2rem;
+}
+footer .content {
+  background-color: #4699e0;
+  border-radius: 0.4rem;
+  padding: 0.4rem 1.6rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+footer .content h2 {
+  display: inline-block;
+  font-size: 1.9rem;
+  margin-left: 0.8rem;
+}
+
+@media (max-width: 42.5rem) {
+  .nav-main {
+    display: block;
+  }
+  .nav-main__list {
+    margin-top: 1rem;
+    justify-content: space-around;
+    gap: unset;
+  }
+  #category {
+    grid-template-columns: 1fr;
+  }
+  .pagination p:first-child {
+    width: 100%;
+    text-align: center;
+  }
+  .pagination p:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  .pagination p:nth-child(3) {
+    border: none;
+  }
+  footer {
+    display: block;
+    text-align: center;
+  }
+  footer div {
+    display: block;
+  }
+  footer h2 {
+    justify-content: center;
+  }
+  footer .content {
+    width: 24rem;
+    margin: 1.8rem auto;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  h1 {
+    font-size: 5.2rem;
+  }
+  footer h2 {
+    font-size: 2rem;
+  }
+  footer span {
+    font-size: 1.6rem;
+  }
+}
