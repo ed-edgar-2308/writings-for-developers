@@ -19,7 +19,7 @@ A simple landing page - Writings for Developer. 📚
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Writings for Developer](https://ralph2308s.github.io/writings-for-developers/)
+- [Writings for Developer](https://ed-edgar-2308.github.io/writings-for-developers/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -32,7 +32,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```
-git clone git@github.com:ralph2308s/writings-for-developers.git
+git clone git@github.com:ed-edgar-2308/writings-for-developers.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -43,9 +43,9 @@ git clone git@github.com:ralph2308s/writings-for-developers.git
 
 👤 **Ralph**
 
-- GitHub: [ralph2308s](https://github.com/ralph2308s)
-- Twitter: [ralph2308s](https://twitter.com/ralph2308s)
-- LinkedIn: [ralph2308s](https://www.linkedin.com/in/ralph2308s/)
+- GitHub: [Edgar](https://github.com/ed-edgar-2308)
+- Twitter: [Edgar](https://twitter.com/)
+- LinkedIn: [Edgar](https://www.linkedin.com/in/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
